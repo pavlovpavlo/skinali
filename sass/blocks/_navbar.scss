@@ -94,6 +94,12 @@
 			display: none;
 		}
 	}
+	
+}
+@media (max-width: 576px){
+	.logo{
+		display: none;
+	}
 	.menu{
 		top: 60px;
 		&__nav{
@@ -106,5 +112,4 @@
 			margin-bottom: 20px;
 		}
 	}
-}
- 
+ }

@@ -61,15 +61,29 @@
 		&__block{
 			background: none;
 			background-color: #fff;
+			padding: 40px;
+			margin-top: -100px;
+		}
+		&__title{
+			font-size: 18px;
+		}
+			&__subtitle{
+			font-size: 16px;
 		}
 	}
 	.form{
 		&__row{
 			flex-direction: column;
+			&-checkbox{
+				flex-direction: row;
+			}
 		}
 		&__group{
 			flex-basis: 100%;
 			width: 100%;
+		}
+		&__input{
+			margin-bottom: 20px;
 		}
 
 	}
