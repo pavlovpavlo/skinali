@@ -88,3 +88,16 @@
 
 	}
 }
+@media (max-width: 768px){
+	.form{
+		&__row{
+			&-checkbox{
+				flex-direction: column;
+				align-items: flex-start;
+			}
+		}
+		&__checkbox{
+			margin-bottom: 20px;
+		}
+	}
+}

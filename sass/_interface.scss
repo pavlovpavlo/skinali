@@ -26,6 +26,9 @@ img{
 	color: $primary;
 	background-color: transparent;
 	text-decoration: none;
+	&:hover{
+		cursor: pointer;
+	}
 }
 .button{
 	padding: 25px 45px;
@@ -35,6 +38,9 @@ img{
 	color: #ffffff;
 	text-decoration: none;
 	@include bold;
+	&:hover{
+		cursor: pointer;
+	}
 	&-fitting{
 		color: $primary;
 		background-color: #fff;	
