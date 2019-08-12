@@ -19,6 +19,7 @@ img{
 }
 .button-o{
 	border: 2px solid $primary;
+	text-align: center;
 	text-transform: uppercase;
 	padding: 17px 22px;
 	font-size: 12px;
@@ -32,6 +33,7 @@ img{
 }
 .button{
 	padding: 25px 45px;
+	text-align: center;
 	text-transform: uppercase;
 	border: none;
 	background-color: $primary;
