@@ -1,16 +1,26 @@
 .factory{
 	&-block{
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		flex-wrap: wrap;
+		&__text{
+			max-width: 520px;
+			margin-left: 70px;
+			font-size: 20px;
+		}
+		&__image{
+			margin: 20px 0;
+		}
 	}
-	&__text{
-		flex-basis: 50%;
-		margin-left: 70px;
-		font-size: 20px;
-		p{}
-	}
-	&__image{
-		margin: 20px 0;
+	
+}
+@media (max-width: 991px){
+	.factory{
+		&-block{
+			&__text{
+				margin-left: 0;
+				text-align: center;
+			}
+		}
 	}
 }
