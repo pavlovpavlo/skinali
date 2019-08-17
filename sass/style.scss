@@ -4,6 +4,8 @@
 @import 'colors';
 //настройки шрифтов
 @import 'fonts';
+//Slick Slider
+@import 'slick';
 //Настройки интерфейса
 @import 'interface';
 // Шапка сайта
@@ -22,10 +24,15 @@
 @import 'blocks/price';
 //Блок Шаги
 @import 'blocks/steps';
-
+//Блок До и после
+@import 'blocks/before';
 //Блок Отзывы
 @import 'blocks/reviews';
 //Блок О производстве
 @import 'blocks/factory';
 //Блок Контакты
 @import 'blocks/contacts';
+//Блок Вопросы
+@import 'blocks/questions';
+//Блок footer
+@import 'blocks/footer';
