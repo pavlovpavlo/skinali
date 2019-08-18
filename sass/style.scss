@@ -1,3 +1,6 @@
+@import 'normalize';
+
+
 //Базовые настройки сетки
 @import 'grid';
 //настройки цветов
@@ -25,6 +28,7 @@
 //Блок Шаги
 @import 'blocks/steps';
 //Блок До и после
+@import 'twentytwenty';
 @import 'blocks/before';
 //Блок Отзывы
 @import 'blocks/reviews';
