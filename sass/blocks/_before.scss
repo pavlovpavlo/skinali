@@ -60,3 +60,12 @@
 		transform: translateX(200%);
 	}
 }
+@media (max-width: 576px){
+	.before{
+		&-slider{
+			&-arrows{
+				display: none;
+			}
+		}
+	}
+}
